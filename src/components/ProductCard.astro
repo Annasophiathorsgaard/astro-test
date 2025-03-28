@@ -19,5 +19,5 @@ const { data } = Astro.props;
     </p>
     <p>{data.discount}%</p>
   </div>
-  <a href="product.html">Read More</a>
+  <a href={`../product/${data.id}`}>Read More</a>
 </article>
